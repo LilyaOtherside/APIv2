@@ -9,10 +9,10 @@ app.use(bodyParser.json());
 
 // Configure the database connection
 const pool = new Pool({
-  host: 'containers-us-west-1.railway.app',
-  port: '7599',
+  host: 'containers-us-west-97.railway.app',
+  port: '5675',
   user: 'postgres',
-  password: 'zG9XfxH2Wxwz6WTukMHl',
+  password: 'JQZowsjZmCl3nJWuqcNn',
   database: 'railway'
 });
 
